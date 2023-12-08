@@ -3,28 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <title></title>
+    <style>
+        :root {
+            --myColor: #002349;
+        }
+    </style>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container border border-1">
-        <div class="row">
+
+        <div class="row border border-1 p-3 <div style="background-color:var(--myColor)">">
             <div class="col bg-light h-1 border border-2">
                 <h2>
                     <b>V</b>ernon <b>S</b>chool <b>D</b>istrict <b>T</b>rade
                 </h2>
             </div>
         </div>
-        <div class="navbar navbar-expand-sm navbar-nav row">
-            <div class="nav-item col">
+        <nav class="navbar navbar-expand-sm row border border-1 p-3 text-center">
+            <ul class="navbar-nav">
+            <li class="nav-item col-4 border border-1">
                 <a class="nav-link" href="home.html">Home</a>
-            </div>
-            <div class="nav-item col">
+            </li>
+            <li class="nav-item col-4 border border-1">
                 <a class="nav-link" href="items.html">Items Available</a>
-            </div>
-            <div class="nav-item col">
-                <a class="nav-link" href="#">Add an Item (Doesn't actually work)</a>
-            </div>
-        </div>
+            </li>
+            <li class="nav-item col-4 border border-1">
+                <a class="nav-link" href="#">Add an Item</a>
+            </li>
+            </ul>
+        </nav>
+        <div class="container border border-1">
         <div class="row">
             <div class="col-sm-7">
                 <div class="h4">Announcements</div>
@@ -42,13 +50,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active width-auto">
-                            <img src="" alt="" class="d-block"><img src="images/temp.png" height="498" width="499" border="1px"/>Item Name
+                            <img src="" alt="" class="d-block"><img src="images/temp.png" height="498" width="499" border="1px"/><br/>Item Name
                         </div>
                         <div class="carousel-item width-auto">
-                            <img src="" alt="" class="d-block"><img src="images/temp.png" height="498" width="499" border="1px"/>Item Name
+                            <img src="" alt="" class="d-block"><img src="images/temp.png" height="498" width="499" border="1px"/><br/>Item Name
                         </div>
                         <div class="carousel-item width-auto">
-                            <img src="" alt="" class="d-block"><img src="images/temp.png" height="498" width="499" border="1px"/>Item Name
+                            <img src="" alt="" class="d-block"><img src="images/temp.png" height="498" width="499" border="1px"/><br/>Item Name
 
                         </div>
                     </div>
